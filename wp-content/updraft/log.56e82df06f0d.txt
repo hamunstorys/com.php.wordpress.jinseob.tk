@@ -1,0 +1,40 @@
+0000.005 () Opened log file at time: Mon, 27 Nov 2017 01:57:51 +0000 on http://ec2-13-124-84-194.ap-northeast-2.compute.amazonaws.com
+0000.005 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.13.12 WP: 4.9 PHP: 5.6.31 (apache2handler, Linux ip-172-31-1-71 4.9.58-18.55.amzn1.x86_64 #1 SMP Thu Nov 2 04:38:47 UTC 2017 x86_64) MySQL: 5.5.57 WPLANG: ko_KR Server: Apache/2.4.27 (Amazon) PHP/5.6.31 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 36M | 36.8M) multisite: N openssl: OpenSSL 1.0.1k-fips 8 Jan 2015 mcrypt: N LANG: C ZipArchive::addFile: Y
+0000.005 () Free space on disk containing Updraft's temporary directory: 6536.7 MB
+0000.008 () Restore job started. Entities to restore: db. Restore options: {"updraft_restorer_replacesiteurl":false,"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false}
+0000.018 () Requested file from remote service: googledrive: backup_2017-11-27-1051_Hello_I039m__da111e051526-db.gz
+0001.260 () Google Drive download: was already downloaded (153098/153098 bytes)
+0001.268 () Entity: db
+0001.268 () restore_backup(backup_file=backup_2017-11-27-1051_Hello_I039m__da111e051526-db.gz, type=db, info=a:0:{}, last_one=1)
+0001.268 () Unpacking backup... (backup_2017-11-27-1051_Hello_I039m__da111e051526-db.gz, 0.1 Mb)
+0001.268 () Database successfully unpacked
+0001.268 () Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0001.268 () Using direct MySQL access; value of use_mysqli is: 1
+0001.282 () Max packet size: 32 MB
+0001.282 () Entering maintenance mode
+0001.282 () 유지관리 모드 활성화.
+0001.282 () Backup of: http://ec2-13-124-84-194.ap-northeast-2.compute.amazonaws.com
+0001.283 () Content URL: http://ec2-13-124-84-194.ap-northeast-2.compute.amazonaws.com/wp-content
+0001.283 () Uploads URL: http://ec2-13-124-84-194.ap-northeast-2.compute.amazonaws.com/wp-content/uploads
+0001.284 () Old table prefix: wp_
+0001.284 () Site information: multisite=0
+0001.285 () New table prefix: wp_
+0001.289 () Processing table (InnoDB): wp_options
+0001.341 () Restoring prior UD configuration (table: wp_options; keys: 3)
+0001.350 () Processing table (InnoDB): wp_users
+0001.361 () Processing table (InnoDB): wp_usermeta
+0001.375 () Processing table (InnoDB): wp_commentmeta
+0001.384 () Processing table (InnoDB): wp_comments
+0001.393 () Processing table (InnoDB): wp_links
+0001.402 () Processing table (InnoDB): wp_postmeta
+0001.450 () Processing table (InnoDB): wp_posts
+0001.480 () Processing table (InnoDB): wp_term_relationships
+0001.489 () Processing table (InnoDB): wp_term_taxonomy
+0001.500 () Processing table (InnoDB): wp_termmeta
+0001.509 () Processing table (InnoDB): wp_terms
+0001.516 () Unlocking database and leaving maintenance mode
+0001.516 () 유지관리 모드 비활성화.
+0001.516 () Finished: lines processed: 40 in 0.24 seconds
+0001.517 () Cleaning up rubbish...
+0001.527 () Restore successful!
+0001.527 () Restore successful
