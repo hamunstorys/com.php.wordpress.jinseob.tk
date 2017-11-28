@@ -104,7 +104,7 @@ if ( ! empty( $page_ids ) ) {
                                     } ?>
                                     <div class="service-content">
                                         <h4 class="service-title"><?php the_title(); ?></h4>
-                                        <?php the_excerpt(); ?>
+                                        <?php the_content(); ?>
                                     </div>
                                 </div>
                             </div>
