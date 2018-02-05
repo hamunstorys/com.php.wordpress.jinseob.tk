@@ -105,7 +105,7 @@ if ( ! empty( $page_ids ) ) {
                                     } ?>
                                     <div class="service-content">
                                         <h4 class="service-title"><?php echo get_the_title( $post ); ?></h4>
-                                        <?php the_content(); ?>
+                                        <?php the_excerpt(); ?>
                                     </div>
                                 </div>
                             </div>
