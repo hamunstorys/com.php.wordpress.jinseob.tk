@@ -1,0 +1,4 @@
+0000.000 (1) Opened log file at time: Mon, 19 Mar 2018 07:35:25 +0000 on http://ec2-52-78-214-128.ap-northeast-2.compute.amazonaws.com
+0000.002 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.14.4 WP: 4.9.4 PHP: 7.0.27 (apache2handler, Linux ip-172-31-4-163 4.9.85-38.58.amzn1.x86_64 #1 SMP Wed Mar 14 01:17:26 UTC 2018 x86_64) MySQL: 5.6.39 WPLANG: ko_KR Server: Apache/2.4.27 (Amazon) PHP/7.0.27 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 21.1M | 4M) multisite: N openssl: OpenSSL 1.0.2k-fips  26 Jan 2017 mcrypt: N LANG: C ZipArchive::addFile: N
+0000.004 (1) Free space on disk containing Updraft's temporary directory: 6224.4 MB
+0000.005 (1) This backup task (5d89d110c616) is either complete or began over 2 days ago: ending (1521444925.2666, ) (existing jobdata keys: )
